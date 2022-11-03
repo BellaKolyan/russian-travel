@@ -15,7 +15,7 @@
   box-sizing: border-box;
   /* чтобы текст не был расстянут и оставались боковые отступы при изменении размеров */
   padding: 20px;
-  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   /* по умолчанию картинка начинается из верхнего левого угла */
   background-position: center;

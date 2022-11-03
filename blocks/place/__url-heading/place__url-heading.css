@@ -1,0 +1,30 @@
+.place__url-heading {
+  max-width: 456px;
+  width: 100%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 2px;
+
+  color: #AAAAAA;
+
+}
+
+@media screen and (max-width:984px) {
+  .place__url-heading {
+    max-width: 352px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:568px) {
+  .place__url-heading {
+    max-width: 288px;
+    width: 100%;
+  }
+}

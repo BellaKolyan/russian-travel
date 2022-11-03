@@ -1,0 +1,24 @@
+.footer__links {
+    max-width: 1184px;
+    /* height: 18px; */
+    display: grid;
+    /* grid-template-rows: 1fr; */
+    grid-auto-flow: column;
+    gap: 18px;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width:568px) {
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        max-width: 186px;
+        gap: 32px;
+    }
+}
+
+* {
+    outline: 1px solid red;
+}

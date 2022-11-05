@@ -6,39 +6,28 @@
   align-items: flex-end;
   /* выравнивание по краям контейнера элементы */
   justify-content: space-between;
-  /* box-sizing: border-box; */
   margin: 0 auto;
-  /* padding: 0 48px; */
   max-width: 1184px;
   width: 100%;
 }
 
 @media screen and (max-width: 1124px) {
   .header {
-    /* box-sizing: border-box; */
-    margin: 0 auto;
     max-width: 928px;
-    width: 100%;
   }
 
 }
 
 @media screen and (max-width:984px) {
   .header {
-    /* box-sizing: border-box; */
-    margin: 0 auto;
     max-width: 720px;
-    width: 100%;
   }
 
 }
 
 @media screen and (max-width: 568px) {
   .header {
-    /* box-sizing: border-box; */
-    margin: 0 auto;
     max-width: 288px;
-    width: 100%;
   }
 
 }

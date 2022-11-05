@@ -2,9 +2,6 @@
   margin: 0;
   max-width: 690px;
   width: 100%;
-  /* left: 148px; */
-
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -15,14 +12,12 @@
 @media screen and (max-width: 984px) {
   .intro__title {
     max-width: 720px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 568px) {
   .intro__title {
     max-width: 288px;
-    width: 100%;
     font-size: 32px;
     line-height: 35px;
   }

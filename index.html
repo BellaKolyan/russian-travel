@@ -24,29 +24,33 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по&nbsp;России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__img" src="images/lead-polka.jpg" alt="Девушка, спящая в вагоне">
-      <figure class="lead__caption">ваша полка — верхняя</figure>
+      <figure class="lead__figure">
+        <img class="lead__img" src="images/lead-polka.jpg" alt="Девушка, спящая в вагоне">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
-    <article class="intro">
-      <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
-      <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только 36% планируют
-        провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
-        вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все
-        эти красоты можно без&nbsp;миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
-        Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и&nbsp;проехала
-        20 тысяч километров породной стране. Мы выбрали и&nbsp;описали некоторые интересные места, достойные
-        вашего отпуска.</p>
-      <ul class="intro__list">
-        <li>Часовых поясов&ensp;<span class="intro__list-statistics">11</span></li>
-        <li>Объектов природного наследия ЮНЕСКО&ensp;<span class="intro__list-statistics">12</span>
-        </li>
-        <li>Объектов культурного наследия ЮНЕСКО&ensp;<span class="intro__list-statistics">16</span>
-        </li>
-        <li>Природных заповедников&ensp;<span class="intro__list-statistics">105</span></li>
-        <li>Аэропортов&ensp;<span class="intro__list-statistics">241</span></li>
-      </ul>
-    </article>
+    <section class="intro">
+      <article class="intro__report">
+        <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
+        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только 36% планируют
+          провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
+          вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все
+          эти красоты можно без&nbsp;миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
+          Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и&nbsp;проехала
+          20 тысяч километров породной стране. Мы выбрали и&nbsp;описали некоторые интересные места, достойные
+          вашего отпуска.</p>
+        <ul class="intro__list">
+          <li>Часовых поясов&ensp;<span class="intro__list-statistics">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО&ensp;<span class="intro__list-statistics">12</span>
+          </li>
+          <li>Объектов культурного наследия ЮНЕСКО&ensp;<span class="intro__list-statistics">16</span>
+          </li>
+          <li>Природных заповедников&ensp;<span class="intro__list-statistics">105</span></li>
+          <li>Аэропортов&ensp;<span class="intro__list-statistics">241</span></li>
+        </ul>
+      </article>
+    </section>
 
     <section class="photo-grid">
       <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="вид из окна поезда">
@@ -161,7 +165,6 @@
             В&nbsp;девственном лесу на&nbsp;сотню километров не&nbsp;встретишь тропы. А&nbsp;на&nbsp;редких тропинках
             деревья
             в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-          <p class="place__paragraph"></p>
         </div>
       </article>
     </section>
@@ -177,15 +180,18 @@
   </main>
 
   <footer class="footer">
-    <ul class="footer__links">
-      <li class="footer__link"><a class="footer__site" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-      <li class="footer__link"><a class="footer__site" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-      <li class="footer__link"><a class="footer__site" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-      <li class="footer__link"><a class="footer__site" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-      </li>
-      <li class="footer__link"><a class="footer__site" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-      </li>
-    </ul>
+    <nav class="footer__nav">
+      <ul class="footer__links">
+        <li class="footer__link"><a class="footer__site" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li class="footer__link"><a class="footer__site" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li class="footer__link"><a class="footer__site" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+        </li>
+        <li class="footer__link"><a class="footer__site" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+        </li>
+        <li class="footer__link"><a class="footer__site" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+        </li>
+      </ul>
+    </nav>
     <p class="footer__copyright">&copy;&nbsp;2022 Колян Белла</p>
   </footer>
 </body>

@@ -7,23 +7,17 @@
 @media screen and (max-width:1124px) {
   .places {
     max-width: 928px;
-    width: 100%;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width:984px) {
   .places {
     max-width: 720px;
-    width: 100%;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width:568px) {
   .places {
     max-width: 320px;
-    width: 100%;
-    margin: 0 auto;
   }
 }

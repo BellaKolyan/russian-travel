@@ -1,8 +1,8 @@
 .footer__site {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer__site:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }

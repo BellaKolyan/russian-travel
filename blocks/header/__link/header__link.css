@@ -1,6 +1,4 @@
 .header__link {
-  width: 29px;
-  height: 28px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -15,9 +13,11 @@
 
 @media screen and (max-width: 568px) {
   .header__link {
-    width: 22px;
-    height: 20px;
     font-size: 18px;
     line-height: 20px;
   }
+}
+
+.header__link:hover {
+  opacity: .8;
 }
